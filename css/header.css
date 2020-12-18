@@ -1,0 +1,28 @@
+#firstImpression {
+    background-image: url("../assets/White\ Cherry\ Blossom.jpeg");
+    background-image: center;
+    background-size: cover;
+
+    height: 91vh;
+    margin-bottom: 0em;
+
+}
+
+#NameHeadline {
+    background-color: var(--sheerPink);
+    color: var(--BurntPlum);
+
+    font-family: Wandita;
+
+    /* font-family: Nalika; */
+}
+
+
+
+
+
+
+
+
+
+

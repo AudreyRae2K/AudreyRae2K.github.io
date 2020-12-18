@@ -1,0 +1,22 @@
+:root {
+    --PowderPink:  #FFEBF2;
+    --sheerPink:  #ffebf29c;
+    --BurntPlum:  rgb(87, 65, 65);
+    --Lipstick: rgb(240, 32, 77);
+    --sheerMauve: rgba(143, 107, 107, 0.836);
+
+}
+
+
+@font-face {
+    font-family: Wandita;
+    src: url('../assets/wandita.otf');
+}
+
+@font-face {
+    font-family: Nalika;
+    src: url('../assets/NalikaSignature.ttf');
+}
+
+
+
