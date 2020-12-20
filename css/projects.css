@@ -4,4 +4,14 @@
 
     padding-top: 10em;
     padding-bottom: 10em;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+}
+
+#portfolio {
+    background-color: rgba(94, 72, 72, 0.986);
+    /* background: linear-gradient(110deg, rgb(80, 55, 55), rgb(150, 127, 127)); */
+    width: 100vw;
 }
