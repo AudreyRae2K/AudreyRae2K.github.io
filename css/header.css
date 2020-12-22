@@ -2,6 +2,7 @@
     background-image: url("../assets/White\ Cherry\ Blossom.jpeg");
     background-image: center;
     background-size: cover;
+    width: 100vw;
 
     height: 90vh;
     margin-bottom: 0em;
@@ -13,6 +14,7 @@
     color: var(--BurntPlum);
 
     font-family: Wandita;
+    font-weight: bolder;
 
     /* font-family: Nalika; */
 }
