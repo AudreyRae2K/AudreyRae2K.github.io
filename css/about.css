@@ -1,32 +1,34 @@
 .container-fluid {
-    padding: 15em;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 0em;
+
 }
 
-.Name {
+
+#signature {
     font-size: 3.5em;
-    color: rgb(201, 250, 178);
     color: var(--PowderPink);
-    font-family: prettyGirl;
     font-family: Castro;
-    /* font-weight: lighter; */
 
 }
 
-img {
-    object-fit: contain;
-    width: 100%;
+
+/* Ideology Section */
+.repository {
+    text-align: left;
+    background-color: var(--sheerMauve);
+    margin-bottom: 0em;
     
 }
 
-.verse {
-    text-align: left;
+#verse {
+    padding-left: 10em;
+    padding-right: auto;
+    padding-bottom: 5em;
 
-    background-color: var(--sheerMauve);
-    padding: 50px;
-    padding-left: 100px;
-    margin-left: 60px;
-    margin-bottom: 0em;
-   
+    margin: auto;
+    
     
 }
 
@@ -36,9 +38,41 @@ img {
     
 }
 
-.verseHeader {
-    text-align: center;
-    font-family: Wandita;
-    font-size: 2.5rem;
+
+
+
+
+
+/* Picture and Link Icons */
+img {
+    object-fit: contain;
+
+    width: 100%;
+
     
 }
+
+.frame {
+
+    padding: 1.5px;
+    border:5px solid #021a40;
+    background-color: white;
+}
+
+
+.links {
+    display: row;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+
+#icon {
+    height: auto;
+    /* you have to go into the html to change the height */
+    color: #021a40;
+}
+
+
+
+

@@ -29,6 +29,10 @@ Note: If you would like to omit something on this list for any reason, please sp
     <!-- Link to CSS File -->
     <link rel="stylesheet" href="./css/main.css">
 
+
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/90f4aa5c7f.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <!-- Header Section -->
@@ -51,13 +55,13 @@ Note: If you would like to omit something on this list for any reason, please sp
               <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Ideology">Ideology</a>
+              <a class="nav-link" href="#ideology">Ideology</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -66,38 +70,50 @@ Note: If you would like to omit something on this list for any reason, please sp
       
 
       <!-- About-->
-      <section id="about">
+      <section class="section" id="about">
+      <h2 class="header">- About -</h2>
       <div class="container-fluid">
         <div class="row">
             <div class="col-md-8">
-              My name is <span class="Name">Audrey Bembenek</span><br>
+              My name is <span id="signature">Audrey Bembenek</span><br>
               and I thank you for taking the time to let me introduce myself. For as long as I remember I have been a designer, whether it is was for my Barbie dolls, creating the perfect dream house, my own Lego city with everything that anyone could dream of, or for my Webkinz who live comfortably with a coffee shop and beach. After graduating high school, I spent a year working as an e-commerce personal shopper as I was not sure what it was I exactly wanted. Having a love of math as well as working with others I decided to work toward a degree in Mathematics. Shortly after that I was presented the opportunity to learn web development. Immediately, I jumped at the chance of a lifetime and have been doing it ever since. There is always something new to learn. It would be my privilege to help others reach their business goals through an effective online presence. I am passionate about helping promote truly authentic brands. If you are looking for a fresh set of eyes to help communicate your company’s message or for any questions you may have, please feel free to reach out. 
             </div>
 
             <div class="col-md-4">
                <div class="sideExtras">
                 <div>
-                  <img src="./assets/ChristmasPortrait.JPG" class="frame">
+
+                  <img src="./assets/ChristmasPortrait.JPG" class="frame" class="img-fluid" alt="Responsive image">
                   <br>
+
                 </div>
 
                 <div class="links">
-                <a href="https://www.linkedin.com/in/audrey-bembenek-634264192/" style="color: white;">LinkedIn</a>
 
-                <a href="https://github.com/AudreyRae2K" style="color: white;">Github</a>
+                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_top_card%3BQ9QCShmdQFGKfNFzHZpwyQ%3D%3D" target="_blank">
+                  <i class="fab fa-linkedin fa-3x" id="icon"></i>
+                </a>
+                
 
-                <a href="assets/Audrey Bembenek Resume.pdf" style="color: white;">Resume</a>
+                <a href="https://github.com/AudreyRae2K" target="_blank">
+                  <i class="fab fa-github fa-3x" id="icon"></i>
+                </a>
+
+                <a href="assets/Audrey Bembenek Resume.pdf" target="_blank"><button type="button" class="btn btn-outline-dark">Resume</button></a>
+
                </div>
+
             </div>
         </div>
     </div>
   </section>
 
-  <!-- Ideaolgy -->
-      <section id="Ideology">
-        <div class="verse">
-        <h2 class="verseHeader">- Ideology -</h2>
-        <p  class="verse">
+  <!-- Ideaology -->
+      <section class="section" id="ideology">
+        <div class="repository">
+          
+        <h2 class="header">- Ideology -</h2>
+        <div id="verse">
           Finally, brethren,<br> 
           whatsoever things are <span class="bigger">true,</span><br>
           whatsoever things are <span class="bigger">honest,</span> <br>
@@ -109,28 +125,20 @@ Note: If you would like to omit something on this list for any reason, please sp
           and if there be any <span class="bigger">praise,</span><br>  
           think on these things.<br>
            – Phil. 4:8<br>
-        </p>
+        </div>
       </div>
       </section>
       
 
   <!-- Portfolio -->
-      <section id="portfolio">
-        <div class="portfolio container" id="container">
+      <section class="section" id="portfolio">
+        <div class="container" >
 
           <div id="title container">
             <div id="title_Container">
-              <div id="line seperator"></div>
-              <h1 class="titleHeader">- My Designs -</h1>
-              <div id="line seperator"></div>
-
+              <h2 class="header" >- My Designs -</h1>
           </div>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-
+        
           </div>
             <div class="container">
               
@@ -139,26 +147,26 @@ Note: If you would like to omit something on this list for any reason, please sp
               <div class="col-md-4">
                 <p class="projectName">HTML & CSS Character</p>
                 <div>
-                  <img src="assets/CSS Creature.png">
+                  <img src="assets/CSS Creature.png" class="example">
                 </div>
               </div>
 
               <div class="col-md-4">
                 <p class="projectName">Static HTML and CSS Web Page</p>
                 <div>
-                  <img src="assets/American Girl Website.png">
+                  <img src="assets/American Girl Website.png" class="example">
                 </div>
               </div>
 
               <div class="col-md-4">
                 <p class="projectName">API Project</p>
-                <a class="portfolio-item" href=""></a>
+                <a class="portfolio-item" href="../API-Project/CatFacts/public/index.html"></a>
 
                 <div>
-                  <img src="assets/Cat Fact Generator.png">
+                  <img src="assets/Cat Fact Generator.png" class="example">
                 </div>
-              </div>
 
+              </div>
 
           </div>
         </div>
@@ -167,10 +175,11 @@ Note: If you would like to omit something on this list for any reason, please sp
     
     <!-- Contact Me -->
     <section id="contact">
+      <div class="row">
         <div class="container">
             <br>
             <br>
-            <h2 class="text-center text-uppercase" id="contact"> Contact Me</h2>
+            <h2 class="text-center text-uppercase"> Contact Me</h2>
             <div class="row">
                 <div class="col-12">
                     <form action="https://formspree.io/f/xeqppeln" method="POST">
@@ -199,15 +208,13 @@ Note: If you would like to omit something on this list for any reason, please sp
                         </div>
                         <div class="text-center">
                             <div id="success"></div>
-                            <button type="submit" class="btn btn-lg btn-black">
-                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                Send Message
-                            </button>
+                            <button type="submit" class="btn btn-sm btn">Send Message</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->

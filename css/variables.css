@@ -13,30 +13,6 @@
     src: url('../assets/wandita.otf');
 }
 
-@font-face {
-    font-family: Nalika;
-    src: url('../assets/NalikaSignature.ttf');
-}
-
-@font-face {
-    font-family: prettyGirl;
-    src: url('../assets/Pretty\ Girls\ Script\ Demo.ttf');
-}
-
-/* @font-face {
-    font-family: distantStrokeM;
-    src: url('../assets/Distant_Stroke_Medium.otf');
-} */
-
-/* @font-face {
-    font-family: distatnStroke;
-    src: url('../assets/Distant_Stroke.otf');
-} */
-
-@font-face {
-    font-family: LaurenScript;
-    src: url('../assets/LaurenScript.ttf');
-}
 
 @font-face {
     font-family: Castro;

@@ -5,6 +5,25 @@ body {
     width: 100%;
     padding: 0em;
     margin: 0em;
-
     
 }
+
+
+/* Headers */
+
+.header {
+    text-align: center;
+    font-family: Wandita;
+    font-size: 2.5em;
+    padding-top: 3em;
+    padding-bottom: 1.5em;
+    
+}
+
+
+/* Sections */
+
+
+
+
+
