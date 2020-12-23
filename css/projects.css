@@ -10,6 +10,10 @@
     width: 100vw;
 }
 
+.example {
+    height: 170px;
+    
+}
 
 .projectName {
     text-align: center;
@@ -18,14 +22,16 @@
 }
 
 
-.example {
+.frameShape {
 
-    padding: 1.5px;
     border:5px solid #021a40;
     background-color: white;
-    
+      
 }
+
+
 
 #My_Designs {
     padding-bottom: 3em;
 }
+

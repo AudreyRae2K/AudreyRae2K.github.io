@@ -14,6 +14,11 @@
 }
 
 
+.description {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
 /* Ideology Section */
 .repository {
     text-align: left;
@@ -28,13 +33,13 @@
     padding-bottom: 5em;
 
     margin: auto;
-    
-    
+      
 }
 
 .bigger {
     font-size: 2em;
     font-weight: lighter;
+    
     
 }
 
@@ -61,18 +66,64 @@ img {
 
 
 .links {
-    display: row;
-    justify-content: flex-end;
+    display: flex;
+    justify-content: space-around;
     flex-wrap: nowrap;
+    align-items: center;
 }
 
 
 #icon {
     height: auto;
-    /* you have to go into the html to change the height */
     color: #021a40;
+    font-size: 3em;
 }
 
 
 
-
+/* Button Coloring Provided By https://blog.koalite.com/bbg/ */
+.btn-resume { 
+    color: #FFFFFF; 
+    background-color: #021A40; 
+    border-color: #FFF; 
+  } 
+   
+  .btn-resume:hover, 
+  .btn-resume:focus, 
+  .btn-resume:active, 
+  .btn-resume.active, 
+  .open .dropdown-toggle.btn-resume { 
+    color: #FFFFFF; 
+    background-color: #8F6B6B; 
+    border-color: #FFF; 
+  } 
+   
+  .btn-resume:active, 
+  .btn-resume.active, 
+  .open .dropdown-toggle.btn-resume { 
+    background-image: none; 
+  } 
+   
+  .btn-resume.disabled, 
+  .btn-resume[disabled], 
+  fieldset[disabled] .btn-resume, 
+  .btn-resume.disabled:hover, 
+  .btn-resume[disabled]:hover, 
+  fieldset[disabled] .btn-resume:hover, 
+  .btn-resume.disabled:focus, 
+  .btn-resume[disabled]:focus, 
+  fieldset[disabled] .btn-resume:focus, 
+  .btn-resume.disabled:active, 
+  .btn-resume[disabled]:active, 
+  fieldset[disabled] .btn-resume:active, 
+  .btn-resume.disabled.active, 
+  .btn-resume[disabled].active, 
+  fieldset[disabled] .btn-resume.active { 
+    background-color: #021A40; 
+    border-color: #FFF; 
+  } 
+   
+  .btn-resume .badge { 
+    color: #021A40; 
+    background-color: #FFFFFF; 
+  }
