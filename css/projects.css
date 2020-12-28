@@ -13,6 +13,7 @@
 .example {
     height: 170px;
     width: 100%;
+    object-fit: cover;
     
 }
 
@@ -23,8 +24,8 @@
 }
 
 
-.frameShape {
 
+.frameShape {
     border:5px solid #021a40;
     background-color: white;
       
