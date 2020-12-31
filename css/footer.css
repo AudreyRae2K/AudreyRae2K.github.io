@@ -1,4 +1,11 @@
-#foot {
-    height: 3em;
+footer {
+    height: 5em;
     background-color: var(--PowderPink);
+    text-align: center;
+    vertical-align: middle;
+    display: block; 
+}
+
+#foot {
+    vertical-align: middle;
 }

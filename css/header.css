@@ -12,13 +12,29 @@
 }
 
 #NameHeadline {
-    background-color: var(--sheerPink);
+    /* background-color: var(--sheerPink); */
     color: var(--BurntPlum);
 
     font-family: Wandita;
     font-weight: bolder;
+    text-align: left;
 
-    /* font-family: Nalika; */
+}
+
+.display-4 {
+  font-size: 3.5rem;
+}
+
+#nameContainer {
+  background-color: var(--sheerPink);
+  width: 50%;
+  text-align: center;
+  padding: 1px;
+  padding-top: 30px;
+  border-radius: 3px;
+  border: 1px solid var(--PowderPink);
+ 
+
 }
 
 
