@@ -2,7 +2,27 @@ a {
     color: var(--Lipstick);
 }
 
-#top {
+/* Scallop Pattern From https://codepen.io/KarenN/pen/LpVBzv */
+  #top {
+    position:relative;
+    background: white;
+    /* padding:50px; */
+  }
+  #top::after { 
+    position:absolute;
+    bottom: -50px;
+    left: 0px;
+    width: 100%;
+    content:" ";
+    background: 
+    radial-gradient(circle at 50% 0%, #FFEBF2 25%,  #021a40 26%, #021a40);
+    background-size:40px 100px;
+    height:50px;
+    background-repeat: repeat-x;
+  }
+  
+
+  #top {
     position: -webkit-sticky;
     /* Safari */
 
@@ -13,3 +33,5 @@ a {
 
     width: 100vw;
 }
+
+
