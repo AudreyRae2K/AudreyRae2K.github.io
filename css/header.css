@@ -18,6 +18,7 @@
     font-family: Wandita;
     font-weight: bolder;
     text-align: left;
+    /* font-size: 11vw; */
 
 }
 
@@ -28,13 +29,14 @@
 
 #nameContainer {
   background-color: var(--sheerPink);
-  width: 50%;
+  /* width: 50%; */
+  max-width: 500px;
   text-align: center;
-  padding: 1px;
+  padding: 3px;
   padding-top: 30px;
   border-radius: 3px;
   border: 1px solid var(--PowderPink);
-  white-space: nowrap;
+  /* white-space: nowrap; */
  
 
 }

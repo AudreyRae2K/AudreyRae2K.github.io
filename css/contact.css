@@ -24,55 +24,29 @@
 }
 
 
-/* Button Coloring Provided By https://blog.koalite.com/bbg/ */
-.btn-resume { 
-    color: #FFFFFF; 
-    background-color: #021A40; 
-    border-color: #FFF; 
-  } 
-   
-  .btn-resume:hover, 
-  .btn-resume:focus, 
-  .btn-resume:active, 
-  .btn-resume.active, 
-  .open .dropdown-toggle.btn-resume { 
-    color: #FFFFFF; 
-    background-color: #8F6B6B; 
-    border-color: #FFF; 
-  } 
-   
-  .btn-resume:active, 
-  .btn-resume.active, 
-  .open .dropdown-toggle.btn-resume { 
-    background-image: none; 
-  } 
-   
-  .btn-resume.disabled, 
-  .btn-resume[disabled], 
-  fieldset[disabled] .btn-resume, 
-  .btn-resume.disabled:hover, 
-  .btn-resume[disabled]:hover, 
-  fieldset[disabled] .btn-resume:hover, 
-  .btn-resume.disabled:focus, 
-  .btn-resume[disabled]:focus, 
-  fieldset[disabled] .btn-resume:focus, 
-  .btn-resume.disabled:active, 
-  .btn-resume[disabled]:active, 
-  fieldset[disabled] .btn-resume:active, 
-  .btn-resume.disabled.active, 
-  .btn-resume[disabled].active, 
-  fieldset[disabled] .btn-resume.active { 
-    background-color: #021A40; 
-    border-color: #FFF; 
-  } 
-   
-  .btn-resume .badge { 
-    color: #021A40; 
-    background-color: #FFFFFF; 
-  }
+
+.contact {
+    padding-right: 15px;
+    font-size: x-large;
+    /* color: #021a40; */
+    color: var(--BurntPlum);
+    transition: .5s ease-in;
+}
+
+#fullName {
+    font-size: x-large;
+    color: var(--BurntPlum);
+    /* color: #021a40; */
+
+}
 
 
+.contact:hover {
+    font-size: 2vw;
+}
 
-
+#fullName:hover {
+    font-size: 2vw;
+}
 
 
