@@ -48,6 +48,7 @@
 
 
 
+
 .bigger {
     font-size: 2em;
     font-weight: lighter;
@@ -156,8 +157,4 @@ img {
 
 #icon a:hover {
     transform: scale(1.1);
-}
-
-.col-md-4 {
-    /* min-width: 200px; */
 }
