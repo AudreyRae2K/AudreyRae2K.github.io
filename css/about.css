@@ -6,6 +6,12 @@
 
 }
 
+#Hello {
+    font-size: 4em;
+    font-weight: lighter;
+    font-family: Wandita;
+    /* font-family: Beauty; */
+}
 
 #signature {
     font-size: 3.5em;
@@ -18,6 +24,7 @@
 .description {
     padding-top: 4em;
     padding-bottom: 4em;
+    font-size: 100%;
     
 }
 
@@ -83,7 +90,11 @@ img {
 #icon {
     height: auto;
     color: white;
-    font-size: 2em;
+    font-size: 2.5em;
+}
+
+#icon:hover {
+    color: rgb(170, 139, 139);
 }
 
 
