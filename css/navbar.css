@@ -34,4 +34,8 @@ a {
     width: 100vw;
 }
 
+a:hover {
+  color: var(--BurntPlum);
+}
+
 

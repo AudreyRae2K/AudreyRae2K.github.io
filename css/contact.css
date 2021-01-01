@@ -9,7 +9,7 @@
 #Contact {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 50vw;
 
 }
 
@@ -20,21 +20,24 @@
 }
 
 .form-group {
-    width: 50vw;
+    /* width: 50vw; */
 }
+
+
 
 
 
 .contact {
     padding-right: 15px;
     font-size: x-large;
+    font-size: 1em;
     /* color: #021a40; */
     color: var(--BurntPlum);
     transition: .5s ease-in;
 }
 
 #fullName {
-    font-size: x-large;
+    font-size: 1em;
     color: var(--BurntPlum);
     /* color: #021a40; */
 
@@ -48,5 +51,7 @@
 #fullName:hover {
     font-size: 2vw;
 }
+
+
 
 
