@@ -1,6 +1,7 @@
 footer {
-    height: 3em;
+    height: 2em;
     background-color: var(--PowderPink);
+    
     text-align: center;
     vertical-align: middle;
     /* display: block;  */
@@ -12,9 +13,39 @@ footer {
 #foot {
     vertical-align: middle;
     font-size: 1em;
+    background-color: var(--PowderPink);
+    /* background-color: #152238; */
+}
+
+
+#firstFoot {
+    background-color: #152238;
+    /* border: var(--BurntPlum) solid 6px; */
+    border: #152238 solid 10px;
+    height: 100px;
 }
 
 
 
+/* .repository {
+    background-color: black;
+    background-image:
+        radial-gradient(circle at 100% 150%, #152238 24%, black 24%, black 28%, #152238 28%, #152238 36%, black 36%, black 40%, transparent 40%, transparent),
+        radial-gradient(circle at 0    150%, #152238 24%, black 24%, black 28%, #152238 28%, #152238 36%, black 36%, black 40%, transparent 40%, transparent),
+        radial-gradient(circle at 50%  100%, black 10%, #152238 10%, #152238 23%, black 23%, black 30%, #152238 30%, #152238 43%, black 43%, black 50%, #152238 50%, #152238 63%, black 63%, black 71%, transparent 71%, transparent),
+        radial-gradient(circle at 100% 50%, black 5%, #152238 5%, #152238 15%, black 15%, black 20%, #152238 20%, #152238 29%, black 29%, black 34%, #152238 34%, #152238 44%, black 44%, black 49%, transparent 49%, transparent),
+        radial-gradient(circle at 0    50%, black 5%, #152238 5%, #152238 15%, black 15%, black 20%, #152238 20%, #152238 29%, black 29%, black 34%, #152238 34%, #152238 44%, black 44%, black 49%, transparent 49%, transparent);
+    background-size: 80px 40px;
+} */
 
-  
+
+/* #firstFoot {
+    background-color: white;
+    background-image:
+        radial-gradient(circle at 100% 150%, var(--sheerMauve) 24%, white 24%, white 28%, var(--sheerMauve) 28%, var(--sheerMauve) 36%, white 36%, white 40%, transparent 40%, transparent),
+        radial-gradient(circle at 0    150%, var(--sheerMauve) 24%, white 24%, white 28%, var(--sheerMauve) 28%, var(--sheerMauve) 36%, white 36%, white 40%, transparent 40%, transparent),
+        radial-gradient(circle at 50%  100%, white 10%, var(--sheerMauve) 10%, var(--sheerMauve) 23%, white 23%, white 30%, var(--sheerMauve) 30%, var(--sheerMauve) 43%, white 43%, white 50%, var(--sheerMauve) 50%, var(--sheerMauve) 63%, white 63%, white 71%, transparent 71%, transparent),
+        radial-gradient(circle at 100% 50%, white 5%, var(--sheerMauve) 5%, var(--sheerMauve) 15%, white 15%, white 20%, var(--sheerMauve) 20%, var(--sheerMauve) 29%, white 29%, white 34%, var(--sheerMauve) 34%, var(--sheerMauve) 44%, white 44%, white 49%, transparent 49%, transparent),
+        radial-gradient(circle at 0    50%, white 5%, var(--sheerMauve) 5%, var(--sheerMauve) 15%, white 15%, white 20%, var(--sheerMauve) 20%, var(--sheerMauve) 29%, white 29%, white 34%, var(--sheerMauve) 34%, var(--sheerMauve) 44%, white 44%, white 49%, transparent 49%, transparent);
+    background-size: 100px 50px;
+} */

@@ -4,12 +4,16 @@
     padding: 10px;
     margin: 0;
     width: auto;
+    color: var(--PowderPink);
 }
 
 #Contact {
     margin: 0;
     padding: 0;
+    padding-top: 3em;
+    margin-bottom: 100px;
     width: 50vw;
+    min-height: 90vh;
 
 }
 

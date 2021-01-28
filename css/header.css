@@ -4,8 +4,10 @@
     background-size: cover;
     background-position: center;
     width: 100vw;
+    background-attachment: fixed;
 
     height: 90vh;
+  
     /* margin-bottom: 0em; */
     margin: 0em;
 
@@ -36,6 +38,7 @@
   padding-top: 30px;
   border-radius: 3px;
   border: 1px solid var(--PowderPink);
+  
   /* white-space: nowrap; */
  
 

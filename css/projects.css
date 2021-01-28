@@ -9,6 +9,7 @@
     /* background: linear-gradient(110deg, rgb(94, 72, 72, .986), rgb(150, 102, 102)); */
     background: linear-gradient(110deg, rgb(94, 72, 72, .986), rgb(153, 113, 113));
     width: 100vw;
+    min-height: 100vh;
 }
 
 .projectName {
