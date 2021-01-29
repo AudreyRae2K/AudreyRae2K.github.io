@@ -1,15 +1,17 @@
 #portfolio {
     width: 100vh;
 
-    padding-bottom: 10em;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+
 
     /* background-color: rgba(94, 72, 72, 0.986); */
-    /* background: linear-gradient(110deg, rgb(94, 72, 72, .986), rgb(150, 102, 102)); */
-    background: linear-gradient(110deg, rgb(94, 72, 72, .986), rgb(153, 113, 113));
+    background: linear-gradient(110deg, rgba(94, 72, 72, 0.678), rgb(153, 113, 113));
+
     width: 100vw;
-    min-height: 100vh;
+    min-height: 300px;
+
 }
 
 .projectName {
@@ -17,6 +19,7 @@
     text-emphasis: bold;
     color: rgb(17, 16, 19);
 }
+
 
 .example {
     height: 200px;
@@ -50,3 +53,79 @@
 }
 
 
+
+/* Reconstructed Portfolio ---------------------------------------------------------- */
+.showRoom {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-column-gap: 20px;
+     grid-row-gap: 20px;
+     background-image: url(../assets/Wave\ Coming\ from\ Right.jpeg);
+     background-attachment: fixed;
+
+     background-image: url(../assets/fernolga-subach-HoRimjiWc3E-unsplash.jpg);
+     background-attachment: fixed;
+     border-radius: 10px;
+     /* background-color: white; */
+  }
+
+
+
+
+.gallery {
+    background-color: rgba(122, 128, 112, 0.568);
+     background-attachment: fixed;
+    /* background-color: white; */
+    border-radius: 10px;
+    border: white solid 1px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    line-height: 1;
+    font-weight: 200;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.projectName {
+    color: white;
+    margin: 3px;
+    
+}
+
+@media screen and (min-width: 100px) {
+    .showRoom {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+@media screen and (min-width: 600px) {
+    .showRoom {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+
+@media screen and (min-width: 800px) {
+    .showRoom {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+
+.gallery:hover {
+    border: 11px solid var(--PowderPink);
+    
+}
+
+
+.frameShape img:hover {
+    border: 8px solid #021a40;
+
+    -webkit-filter: blur(0px); /* Safari 6.0 - 9.0 */
+    filter: blue(0px);    
+}

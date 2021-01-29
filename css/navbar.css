@@ -6,6 +6,7 @@ a {
   #top {
     position:relative;
     background: white;
+    
     /* padding:50px; */
   }
   #top::after { 

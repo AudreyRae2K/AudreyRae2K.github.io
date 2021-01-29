@@ -9,26 +9,30 @@
 
 #Contact {
     margin: 0;
-    padding: 0;
+    padding: 10px;
     padding-top: 3em;
-    margin-bottom: 100px;
+    padding-bottom: 6em;
     width: 50vw;
-    min-height: 90vh;
+    /* background-color: rgba(255, 255, 255, 0.246); */
+    /* background-color: white; */
 
 }
+
+.col-12 {
+    /* background-color: rgba(255, 255, 255, 0.246); */
+    /* background-color: var(--sheerPink); */
+    /* padding: 10px; */
+}
+
+
 
 #contact {
     display: flex;
     justify-content: center;
+    background-color: rgba(255, 255, 255, 0.171);
+    /* background-color: var(--sheerPink); */
     
 }
-
-.form-group {
-    /* width: 50vw; */
-}
-
-
-
 
 
 .contact {
@@ -47,7 +51,6 @@
 
 }
 
-
 .contact:hover {
     font-size: 2vw;
 }
@@ -57,5 +60,17 @@
 }
 
 
+.btn {
+    margin-top: 10px;
+    
+}
 
-
+.form-control {
+    border: 1.5px solid var(--sheerMauve);
+    background-color: rgb(255, 255, 255);
+    color: var(--BurntPlum);
+    border-radius: .60rem;
+    color: black;
+    
+    
+}
