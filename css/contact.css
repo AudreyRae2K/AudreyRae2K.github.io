@@ -1,6 +1,5 @@
 #foot {
     text-align: center;
-    font-size: 12px;
     padding: 10px;
     margin: 0;
     width: auto;
@@ -16,12 +15,6 @@
     /* background-color: rgba(255, 255, 255, 0.246); */
     /* background-color: white; */
 
-}
-
-.col-12 {
-    /* background-color: rgba(255, 255, 255, 0.246); */
-    /* background-color: var(--sheerPink); */
-    /* padding: 10px; */
 }
 
 
@@ -66,7 +59,7 @@
 }
 
 .form-control {
-    border: 1.5px solid var(--sheerMauve);
+    border: 1.8px solid var(--sheerMauve);
     background-color: rgb(255, 255, 255);
     color: var(--BurntPlum);
     border-radius: .60rem;

@@ -158,7 +158,7 @@ img {
     border-color: #FFF; 
   } 
    
-  .btn-resume .badge { 
+.btn-resume .badge { 
     color: #021A40; 
     background-color: #FFFFFF; 
   }
@@ -170,4 +170,8 @@ img {
 
 #icon a:hover {
     transform: scale(1.1);
+}
+
+.btn {
+    margin-top: 0;
 }
