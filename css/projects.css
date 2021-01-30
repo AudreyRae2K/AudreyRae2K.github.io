@@ -36,8 +36,8 @@
 
 
 .gallery {
-    /* background: rgba(122, 128, 112, 0.568);
-    background-image: url(../assets/fernolga-subach-HoRimjiWc3E-unsplash.jpg); */
+    background: rgba(122, 128, 112, 0.568);
+    /* background-image: url(../assets/fernolga-subach-HoRimjiWc3E-unsplash.jpg);  */
 
 
     background: 
@@ -45,9 +45,10 @@
       linear-gradient(
         rgba(122, 128, 112, 0.568), 
         rgba(122, 128, 112, 0.568)
-    ),
+    ), 
       /* bottom, image */
       url(../assets/fernolga-subach-HoRimjiWc3E-unsplash.jpg);
+      
 
       /* Photo Credit */
       /* <span>Photo by <a href="https://unsplash.com/@create4eyes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Olga Subach</a> on <a href="https://unsplash.com/s/photos/hawaii-volcano?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
@@ -94,6 +95,7 @@
 .gallery:hover {
     border: 11px solid var(--PowderPink);
     font-weight: 400;
+    
     
     
 }

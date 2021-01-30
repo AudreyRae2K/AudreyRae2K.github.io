@@ -11,10 +11,14 @@
     padding: 10px;
     padding-top: 3em;
     padding-bottom: 6em;
-    width: 50vw;
+    width: 50vw
     /* background-color: rgba(255, 255, 255, 0.246); */
     /* background-color: white; */
 
+
+    text-align: center;
+    padding-bottom: 20px;
+    width: 100vw;
 }
 
 
@@ -24,17 +28,26 @@
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.171);
     /* background-color: var(--sheerPink); */
+
+
+
+    display:block
     
 }
 
 
 .contact {
+    display: block;
     padding-right: 15px;
     font-size: x-large;
     font-size: 1em;
     /* color: #021a40; */
     color: var(--BurntPlum);
     transition: .5s ease-in;
+
+
+    
+    
 }
 
 #fullName {
@@ -64,6 +77,12 @@
     color: var(--BurntPlum);
     border-radius: .60rem;
     color: black;
-    
-    
+   
+}
+
+.rowForm {
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 1500px;
+    margin: 0 auto; 
 }
