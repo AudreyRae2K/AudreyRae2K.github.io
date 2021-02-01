@@ -6,10 +6,10 @@ body {
     padding: 0em;
     margin: 0em;
 
+    
     background-image: url("../assets/4073194.jpg");
     background-attachment: fixed;
-    
-    
+       
 }
 
 
@@ -18,6 +18,7 @@ body {
 .header {
     text-align: center;
     font-family: Wandita;
+
     font-size: 2.5em;
     padding-top: 3em;
     padding-bottom: 1.5em;

@@ -10,7 +10,6 @@
     font-size: 4em;
     font-weight: lighter;
     font-family: Wandita;
-    /* font-family: Beauty; */
 }
 
 #signature {
@@ -48,7 +47,8 @@
     
     margin: auto;
     /* font-size: 100%; */
-    font-size: 20px;
+    font-size: 19px;
+    
       
 }
 

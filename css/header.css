@@ -1,5 +1,6 @@
 #firstImpression {
-    background-image: url("../assets/White\ Cherry\ Blossom.jpeg");
+    
+    background-image: url(../assets/White\ Cherry\ Blossom.jpeg);
     background-image: center;
     background-size: cover;
     background-position: center;
@@ -11,16 +12,24 @@
     /* margin-bottom: 0em; */
     margin: 0em;
 
+
+    
+
 }
 
 #NameHeadline {
-    /* background-color: var(--sheerPink); */
+   
     color: var(--BurntPlum);
-
+    
+    /* text-shadow: 0 0 30px black; */
     font-family: Wandita;
     font-weight: bolder;
     text-align: left;
-    /* font-size: 11vw; */
+    /* font-size: 3vw; */
+
+
+    /* background-color: var(--sheerPink); */
+    
 
 }
 
@@ -39,8 +48,13 @@
   border-radius: 3px;
   border: 1px solid var(--PowderPink);
   
+  
   /* white-space: nowrap; */
- 
+
+/* 
+  margin: 0 auto;
+  border: solid 5px var(--PowderPink);
+  */
 
 }
 
@@ -51,12 +65,86 @@
   
 .navbar-toggler {
     border-color: var(--Lipstick);
+    
   } 
 
   
+  
+.Namebrand {
+  background-color: var(--PowderPink);
+  color: black;
+  text-align: center;
+  font-family: Wandita;
+  font-weight: bold;
+  padding: 50px;
+}
 
 
 
 
+.framedJumbo {
+  padding: 20px;
+  background-image: url(../assets/White\ Cherry\ Blossom.jpeg);
+  height: 90vh;
+  background-image: center;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    background-attachment: fixed;
+
+  
+}
+
+.insideFrame {
+  margin: 2%;
+  /* border-bottom: white solid 2px; */
+  /* border-left: white solid 2px; */
+  /* border-right: white solid 2px; */
+  /* border-top: white inset 6px; */
+  height: 80vh;
+  /* border-radius: 10px; */
+  text-align: center;
+
+  display: flex;
+  font-family: Wandita;
+  /* font-family: 'Special Elite', cursive; */
+  font-size: 50.5em;
+  
+}
+
+
+.topBorder {
+  color: var(--BurntPlum);
+  font-size: 5rem;
+  
+  
+}
+
+.logoBox {
+  background-color: var(--sheerPink);
+  height: 100px;
+  /* padding: 20px; */
+  margin-top: 50px;
+  width: 500px;
+  
+}
+
+#right {
+  height: 2px;
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 5%;
+}
+
+#left {
+
+  height: 2px;
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 45%;
+
+}
 
 
