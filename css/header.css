@@ -1,4 +1,6 @@
-#firstImpression {
+/* First Header code */
+
+/* #firstImpression {
     
     background-image: url(../assets/White\ Cherry\ Blossom.jpeg);
     background-image: center;
@@ -9,67 +11,34 @@
 
     height: 90vh;
   
-    /* margin-bottom: 0em; */
     margin: 0em;
+} */
 
-
-    
-
-}
-
-#NameHeadline {
+/* #NameHeadline {
    
     color: var(--BurntPlum);
-    
-    /* text-shadow: 0 0 30px black; */
     font-family: Wandita;
     font-weight: bolder;
     text-align: left;
-    /* font-size: 3vw; */
-
-
-    /* background-color: var(--sheerPink); */
-    
-
-}
-
+} */
+/* 
 .display-4 {
   font-size: 3.5rem;
   
-}
-
+} */
+/* 
 #nameContainer {
   background-color: var(--sheerPink);
-  /* width: 50%; */
   max-width: 500px;
   text-align: center;
   padding: 3px;
   padding-top: 30px;
   border-radius: 3px;
   border: 1px solid var(--PowderPink);
-  
-  
-  /* white-space: nowrap; */
 
-/* 
-  margin: 0 auto;
-  border: solid 5px var(--PowderPink);
-  */
-
-}
+} */
 
 
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(240, 32, 77)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
-  
-.navbar-toggler {
-    border-color: var(--Lipstick);
-    
-  } 
-
-  
-  
 .Namebrand {
   background-color: var(--PowderPink);
   color: black;
@@ -80,53 +49,56 @@
 }
 
 
-
-
-.framedJumbo {
-  padding: 20px;
+.paddedJumbo {
+  padding: 1%;
   background-image: url(../assets/White\ Cherry\ Blossom.jpeg);
   height: 90vh;
   background-image: center;
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  background-attachment: fixed;
 
   
 }
 
 .insideFrame {
-  margin: 2%;
-  /* border-bottom: white solid 2px; */
-  /* border-left: white solid 2px; */
-  /* border-right: white solid 2px; */
-  /* border-top: white inset 6px; */
+  margin: 1%;
   height: 80vh;
-  /* border-radius: 10px; */
   text-align: center;
 
   display: flex;
   font-family: Wandita;
-  /* font-family: 'Special Elite', cursive; */
-  font-size: 50.5em;
+
   
 }
 
 
 .topBorder {
   color: var(--BurntPlum);
-  font-size: 5rem;
+  font-size: 3.5rem;
+  text-align: center;
+
+
+  padding: 3px;
+  padding-top: 30px;
+  background-color: var(--sheerPink);
+  border-radius: 3px;
+  
+  max-height: fit-content;
+  width: 100%;
+  border: solid 1px var(--PowderPink);
+  line-height: 4rem;
+  margin-bottom: 0;
   
   
 }
 
 .logoBox {
-  background-color: var(--sheerPink);
   height: 100px;
-  /* padding: 20px; */
   margin-top: 50px;
   width: 500px;
-  
+
 }
 
 #right {
@@ -134,7 +106,7 @@
   background-color: white;
   margin-top: 0px;
   margin-bottom: 20px;
-  width: 5%;
+  width: 45%;
 }
 
 #left {
@@ -143,8 +115,47 @@
   background-color: white;
   margin-top: 0px;
   margin-bottom: 20px;
-  width: 45%;
+  width: 5%;
 
 }
 
+@media screen and (max-width: 600px) {
+  #left {
+     width: 0%;
+  }
 
+  #right {
+    width: 0%;
+ }
+
+ .topBorder {
+   font-size: 3rem;
+ }
+}
+
+
+@media screen and (min-width: 1000px) {
+  
+  .insideFrame {
+    border-left: white solid 2px;
+  }
+}
+
+
+@media screen and (max-width: 310px) {
+  
+  .topBorder {
+    font-size: 2rem;
+  }
+
+  .d-block {
+    font-size: 1rem;
+    font-family: Castro;
+  }
+}
+
+.d-block {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: Castro;
+}
