@@ -1,31 +1,18 @@
-.container-fluid {
+/* .container-fluid {
     padding-right: 15%;
     padding-left: 15%;
     padding-top: 0em;
     margin-bottom: 3em;
 
-}
-
-#Hello {
-    font-size: 4em;
-    font-weight: lighter;
-    font-family: Wandita;
-}
-
-#signature {
-    font-size: 3.5em;
-    color: var(--PowderPink);
-    font-family: Castro;
-
-}
+} */
 
 
-.description {
+/* .description {
     padding-top: 4em;
     padding-bottom: 4em;
     font-size: 100%;
     
-}
+} */
 
 
 /* Ideology Section */
@@ -53,8 +40,6 @@
 }
 
 
-/* https://www.codetheta.com/2016/12/how-to-make-diagonal-stripes-in-div-by-css.html?m=1 */
-
 
 .bigger {
     font-size: 2em;
@@ -64,13 +49,28 @@
 }
 
 
+
+/* About description */
+#Hello {
+    font-size: 4em;
+    font-weight: lighter;
+    font-family: Wandita;
+}
+
+#signature {
+    font-size: 3.5em;
+    color: var(--PowderPink);
+    font-family: Castro;
+
+}
+
+
 /* Picture and Link Icons */
 img {
     object-fit: contain;
-    width: 100%;
+    max-width: 100%;
     border: 1px solid transparent;
-
-    
+   
 }
 
 .frame {
@@ -79,8 +79,8 @@ img {
     border-radius: 5px 5px 0 0;
     /* border:10px solid #152238; */
     background-color: white;
+    /* max-height: 65vh; */
 }
-
 
 
 .links {
@@ -89,6 +89,7 @@ img {
     flex-wrap: nowrap;
     align-items: center;
     background-color: #021a40;
+    
     /* background-color: #152238; */
     border-radius: 0 0 5px 5px;
     padding-top: 0;
@@ -99,21 +100,19 @@ img {
 
 }
 
-
 #icon {
     height: auto;
     color: white;
     font-size: 40px;
     margin-right: 8px;
     margin-left: 8px;
+    margin-top: 10px;
+
 }
 
 #icon:hover {
     color: rgb(170, 139, 139);
 }
-
-
-
 
 
 /* Button Coloring Provided By https://blog.koalite.com/bbg/ */
@@ -173,5 +172,67 @@ img {
 }
 
 .btn {
-    margin-top: 0;
+    margin-top: 0px;
 }
+
+
+
+
+
+
+/* About page second */
+
+.content {
+    display: grid;
+    /* grid-template-columns: 1.5fr px; */
+    grid-template-columns: 2fr minmax(min(300px, 100%), 1fr);
+    padding-right: 15%;
+    padding-left: 15%;
+    grid-column-gap: 30px;
+    align-items: start; 
+    margin-bottom: 3em;
+
+
+
+}
+
+
+
+#info {
+    /* margin-top: 8%; */
+    max-height: 60vh;
+    min-height: 500px;
+    padding-top: 4em;
+    padding-bottom: 1em;
+   
+
+    overflow-y: scroll;
+    /* this will hide the scrollbar in mozilla based browsers */
+    overflow: -moz-scrollbars-none;
+    /* this will hide the scrollbar in internet explorers */
+    -ms-overflow-style: none;
+}
+
+
+#info::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none; 
+  }
+
+
+
+@media screen and (max-width: 800px) {
+    .content {
+      grid-template-columns: 1fr;
+    }
+
+    #photo {
+        padding: 25px;
+        padding-top: 50px;
+        
+    }
+  }
+
+
+
+ 

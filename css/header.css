@@ -1,44 +1,3 @@
-/* First Header code */
-
-/* #firstImpression {
-    
-    background-image: url(../assets/White\ Cherry\ Blossom.jpeg);
-    background-image: center;
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    background-attachment: fixed;
-
-    height: 90vh;
-  
-    margin: 0em;
-} */
-
-/* #NameHeadline {
-   
-    color: var(--BurntPlum);
-    font-family: Wandita;
-    font-weight: bolder;
-    text-align: left;
-} */
-/* 
-.display-4 {
-  font-size: 3.5rem;
-  
-} */
-/* 
-#nameContainer {
-  background-color: var(--sheerPink);
-  max-width: 500px;
-  text-align: center;
-  padding: 3px;
-  padding-top: 30px;
-  border-radius: 3px;
-  border: 1px solid var(--PowderPink);
-
-} */
-
-
 .Namebrand {
   background-color: var(--PowderPink);
   color: black;
@@ -52,6 +11,7 @@
 .paddedJumbo {
   padding: 1%;
   background-image: url(../assets/White\ Cherry\ Blossom.jpeg);
+  /* background-image: url(../assets/alice-mourou-nliiE9lkYec-unsplash.jpg); */
   height: 90vh;
   background-image: center;
   background-size: cover;
@@ -158,4 +118,5 @@
   font-size: 2rem;
   font-weight: 500;
   font-family: Castro;
+  
 }
