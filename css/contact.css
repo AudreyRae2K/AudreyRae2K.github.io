@@ -86,3 +86,9 @@
     max-width: 1500px;
     margin: 0 auto; 
 }
+
+
+a[href^=tel] {
+    text-decoration:inherit;
+    color: inherit;
+ }
